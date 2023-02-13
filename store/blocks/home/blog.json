@@ -1,0 +1,359 @@
+{
+    "flex-layout.row#blog": {
+        "props": {
+            "blockClass": "blog-container"
+        },
+        "children": [
+        "flex-layout.col#post-blog",
+        "flex-layout.col#blog-info"
+        ]
+    },
+    
+    "flex-layout.col#post-blog": {
+        "props": {
+            "width": "65%",
+            "blockClass": "post-blog-container"
+        },
+        "children": [
+        "flex-layout.row#post-first-row",
+        "flex-layout.row#post-second-row"
+        ]
+    },
+    
+    "flex-layout.row#post-first-row": {
+        "props": {
+            "blockClass": "post-first-row",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+        "flex-layout.col#first-post",
+        "flex-layout.col#second-post"
+        ]
+    },
+    "flex-layout.col#first-post": {
+        "props": {
+            "blockClass": "post-container"
+        },
+        "children": [
+        "image#first-post",
+        "rich-text#first-post-title",
+        "rich-text#first-post-summary",
+        "flex-layout.row#first-post-button"
+        ]
+    },
+    "image#first-post": {
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#first-post-title": {
+        "props": {
+            "text": "Principais dúvidas sobre a saúde",
+            "blockClass": "post-title"
+        }
+    },
+    "rich-text#first-post-summary": {
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#first-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#first-post-button"]
+    },
+    "link#first-post-button": {
+        "props": {
+            "label": "Continuar lendo...",
+            "href": "",
+            "blockClass": "post-button"
+        }
+    },
+
+    "flex-layout.col#second-post": {
+        "props": {
+            "blockClass": "post-container"
+        },
+        "children": [
+        "image#second-post",
+        "rich-text#second-post-title",
+        "rich-text#second-post-summary",
+        "flex-layout.row#second-post-button"
+        ]
+    },
+    "image#second-post": {
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#second-post-title": {
+        "props": {
+            "text": "Proteção no local de trabalho",
+            "blockClass": "post-title"
+        }
+    },
+    "rich-text#second-post-summary": {
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#second-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#second-post-button"]
+    },
+    "link#second-post-button": {
+        "props": {
+            "label": "Continuar lendo...",
+            "href": "",
+            "blockClass": "post-button"
+        }
+    },
+
+    
+    "flex-layout.row#post-second-row": { 
+        "props": {
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "flex-layout.col#third-post",
+            "flex-layout.col#fourth-post"
+        ]
+    },
+
+    "flex-layout.col#third-post": {
+        "props": {
+            "blockClass": "post-container"
+        },
+        "children": [
+            "image#third-post",
+            "rich-text#third-post-title",
+            "rich-text#third-post-summary",
+            "flex-layout.row#third-post-button"
+        ]
+    },
+    "image#third-post": {
+        "props": {
+            "src": ""
+        }
+    },
+    "rich-text#third-post-title": {
+        "props": {
+            "text": "Medo de Abestesia",
+            "blockClass": "post-title"
+        }
+    },
+    "rich-text#third-post-summary": {
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#third-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#third-post-button"]
+    },
+    "link#third-post-button": {
+        "props": {
+            "label": "Continuar lendo...",
+            "href": "",
+            "blockClass": "post-button"
+        }
+    },
+    
+    "flex-layout.col#fourth-post": {
+        "props": {
+            "blockClass": "post-container"
+        },
+        "children": [
+        "image#fourth-post",
+        "rich-text#fourth-post-title",
+        "rich-text#fourth-post-summary",
+        "flex-layout.row#fourth-post-button"
+        ]
+    },
+    "image#fourth-post": {
+        "props": {
+        "src": ""
+        }
+    },
+    "rich-text#fourth-post-title": {
+        "props": {
+            "text": "Melhorar a vida e a saúde com exercícios",
+            "blockClass": "post-title"
+        }
+    },
+    "rich-text#fourth-post-summary": {
+        "props": {
+            "text": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor).",
+            "blockClass": "post-summary"
+        }
+    },
+    "flex-layout.row#fourth-post-button": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "post-button-container"
+        },
+        "children": ["link#fourth-post-button"]
+    },
+    "link#fourth-post-button": {
+            "props": {
+                "label": "Continuar lendo...",
+                "href": "",
+                "blockClass": "post-button"
+            }
+        },
+
+    "flex-layout.col#blog-info": {
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "blog-info-button"
+        },
+        "children": [
+            "link#go-to-blog",
+            "flex-layout.row#social-media-container",
+            "flex-layout.row#popular-posts"
+        ]
+    },
+    "link#go-to-blog": {
+        "props": {
+            "label": "IR PARA O BLOG",
+            "href": "",
+            "blockClass": "go-to-blog"
+        }
+    },
+
+    "flex-layout.row#social-media-container": {
+        "props": {
+            "blockClass": "social-media-container"
+        },
+        "children": [
+            "flex-layout.row#social-media-title",
+            "flex-layout.row#social-media-icons"
+        ]
+    },
+    "flex-layout.row#social-media-title": {
+        "children": ["rich-text#social-media-title"]
+    },
+    "rich-text#social-media-title": {
+        "props": {
+            "blockClass": "social-media-title",
+            "text": "Está gostando? Compartilhe"
+        }
+    },
+
+    "flex-layout.row#social-media-icons": {
+        "children": [
+            "link#facebook",
+            "link#linkedin",
+            "link#whatsapp",
+            "link#gmail"
+        ]
+    },
+
+    "link#facebook": {
+        "props": {
+            "blockClass": "facebook",
+            "href": ""
+        }
+    },
+    "link#linkedin": {
+        "props": {
+            "blockClass": "linkedin",
+            "href": ""
+        }
+    },
+    "link#whatsapp": {
+        "props": {
+            "blockClass": "whatsapp",
+            "href": ""
+        }
+    },
+    "link#gmail": {
+        "props": {
+            "blockClass": "gmail",
+            "href": ""
+        }
+    },
+
+    "flex-layout.row#popular-posts": {
+        "props": {
+            "blockClass": "popular-posts-container"
+        },
+        "children": [
+            "rich-text#popular-posts-title",
+            "flex-layout.row#popular-posts1",
+            "flex-layout.row#popular-posts2",
+            "flex-layout.row#popular-posts3",
+            "flex-layout.row#popular-posts4"
+        ]
+    },
+    "rich-text#popular-posts-title": {
+        "props": {
+            "blockClass": "most-popular-text",
+            "text": "Mais Populares:"
+        }
+    },
+    "flex-layout.row#popular-posts1": {
+        "props": {
+            "blockClass": "popular-post-box"
+        },
+        "children": ["link#popular-posts1"]
+    },
+    "link#popular-posts1": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "popular-post",
+            "href": "",
+            "label": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor)."
+        }
+    },
+    "flex-layout.row#popular-posts2": {
+        "props": {
+            "blockClass": "popular-post-box"
+        },
+        "children": ["link#popular-posts2"]
+    },
+    "link#popular-posts2": {
+        "props": {
+            "blockClass": "popular-post",
+            "href": "",
+            "label": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor)."
+        }
+    },
+    "flex-layout.row#popular-posts3": {
+        "props": {
+            "blockClass": "popular-post-box"
+        },
+        "children": ["link#popular-posts3"]
+    },
+    "link#popular-posts3": {
+        "props": {
+            "blockClass": "popular-post",
+            "href": "",
+            "label": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor)."
+        }
+    },
+    "flex-layout.row#popular-posts4": {
+        "props": {
+            "blockClass": "popular-post-box"
+        },
+        "children": ["link#popular-posts4"]
+    },
+    "link#popular-posts4": {
+        "props": {
+            "blockClass": "popular-post",
+            "href": "",
+            "label": "O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor). Eles têm a função de transmitirem mensagens. O texto é uma manifestação escrita acerca das ideias de um autor (emissor ou locutor)."
+        }
+    }
+}

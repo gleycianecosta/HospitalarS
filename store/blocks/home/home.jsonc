@@ -1,0 +1,604 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-banner",
+      "flex-layout.row#info-shelf",
+      "flex-layout.row#discount-shelf",
+      "flex-layout.row#second-shelf",
+      "flex-layout.row#third-shelf",
+      "flex-layout.row#category-group",
+      "flex-layout.row#fourth-shelf",
+      "flex-layout.row#fifth-shelf",
+      "flex-layout.row#sixth-shelf",
+      "rich-text#our-blog",
+      "flex-layout.row#blog",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  "flex-layout.row#main-banner": {
+    "props": {
+      "blockClass": "main-banner-box"
+    },
+    "children": ["image#main-banner"]
+  },
+  "image#main-banner": {
+    "props": {
+      "src": "assets/images/banner.svg",
+      "blockClass": "main-banner"
+    }
+  },
+
+  "flex-layout.row#info-shelf": {
+    "props": {
+      "blockClass": "info-shelf",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#parcel",
+      "flex-layout.col#brand",
+      "flex-layout.col#deliver",
+      "flex-layout.col#special-condition",
+      "flex-layout.col#rent"
+    ]
+  },
+  "flex-layout.col#parcel": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#card", "rich-text#parcel-text"]
+  },
+  "image#card": {
+    "props": {
+      "src": "assets/images/credit-card.svg",
+      "blockClass": "parcel-card"
+    }
+  },
+  "rich-text#parcel-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**PARCELE SUAS COMPRAS** <br>EM ATÉ 6X SEM JUROS"
+    }
+  },
+
+  "flex-layout.col#brand": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#brand", "rich-text#brand-text"]
+  },
+  "image#brand": {
+    "props": {
+      "src": "assets/images/star.svg",
+      "blockClass": "star"
+    }
+  },
+  "rich-text#brand-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**AS MELHORES MARCAS** <br>DO MERCADO"
+    }
+  },
+
+  "flex-layout.col#deliver": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#deliver", "rich-text#deliver-text"]
+  },
+  "image#deliver": {
+    "props": {
+      "src": "assets/images/location.svg",
+      "blockClass": "location"
+    }
+  },
+  "rich-text#deliver-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**ENTREGA EM TODO** <br>TERRITÓRIO NACIONAL"
+    }
+  },
+
+  "flex-layout.col#special-condition": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#mail", "rich-text#special-condition-text"]
+  },
+  "image#mail": {
+    "props": {
+      "src": "assets/images/bag.svg",
+      "blockClass": "bag"
+    }
+  },
+  "rich-text#special-condition-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**CONDIÇÕES ESPECIAIS:** <br>CLÍNICAS E HOSPITAIS"
+    }
+  },
+
+  "flex-layout.col#rent": {
+    "props": {
+      "blockClass": "info-container"
+    },
+    "children": ["image#rent", "rich-text#rent-text"]
+  },
+  "image#rent": {
+    "props": {
+      "src": "assets/images/rent.svg",
+      "blockClass": "rent"
+    }
+  },
+  "rich-text#rent-text": {
+    "props": {
+      "blockClass": "info-shelf-text",
+      "text": "**ALUGUEL DE** <br>EQUIPAMENTOS"
+    }
+  },
+
+  "flex-layout.row#discount-shelf": {
+    "props": {
+      "blockClass": "discount-shelf"
+    },
+    "children": ["flex-layout.row#shelf-title", "flex-layout.row#shelf-context"]
+  },
+
+  "flex-layout.row#shelf-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf-title"]
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Promoções Hospitalar Shop",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf-context": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#discount"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#second-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf2-title", "flex-layout.row#shelf2"]
+  },
+  "flex-layout.row#shelf2-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf2-title"]
+  },
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "flex-layout.row#third-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf3-title", "flex-layout.row#shelf3"]
+  },
+  "flex-layout.row#shelf3-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf3-title"]
+  },
+  "rich-text#shelf3-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
+  "flex-layout.row#shelf3": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo3"]
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "flex-layout.row#category-group": {
+    "props": {
+      "blockClass": "category-group"
+    },
+    "children": [
+      "flex-layout.col#hospitalares", 
+      "flex-layout.col#ortopedicos", 
+      "flex-layout.col#medicos", 
+      "flex-layout.col#fitness", 
+      "flex-layout.col#mobilidade", 
+      "flex-layout.col#pessoais"
+    ]
+  },
+
+  "flex-layout.col#hospitalares": {
+    "children": ["link#hospitalares"]
+  },
+  "link#hospitalares": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/produtos-hospitalares"
+    },
+    "children": ["image#hospitalar", "rich-text#hospitalar-text"]
+  },
+  "image#hospitalar": {
+    "props": {
+      "src": "assets/images/hospitalar.svg"
+    }
+  },
+  "rich-text#hospitalar-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Produtos <br>Hospitalares"
+    }
+  },
+
+  "flex-layout.col#ortopedicos": {
+    "children": ["link#ortopedicos"]
+  },
+  "link#ortopedicos": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/produtos-ortopedicos"
+    },
+    "children": ["image#ortopedicos", "rich-text#ortopedico-text"]
+  },
+  "image#ortopedicos": {
+    "props": {
+      "src": "assets/images/ortopedicos.svg"
+    }
+  },
+  "rich-text#ortopedico-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Produtos <br>Ortopédicos"
+    }
+  },
+
+  "flex-layout.col#medicos": {
+    "children": ["link#medicos"]
+  },
+  "link#medicos": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/equipamentos-medicos"
+    },
+    "children": ["image#medicos", "rich-text#medicos-text"]
+  },
+  "image#medicos": {
+    "props": {
+      "src": "assets/images/medicos.svg"
+    }
+  },
+  "rich-text#medicos-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Equipamentos <br>Médicos"
+    }
+  },
+
+  "flex-layout.col#fitness": {
+    "children": ["link#fitness"]
+  },
+  "link#fitness": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/fisioterapia-e-fitness"
+    },
+    "children": ["image#fitness", "rich-text#fitness-text"]
+  },
+  "image#fitness": {
+    "props": {
+      "src": "assets/images/fitness.svg"
+    }
+  },
+  "rich-text#fitness-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Fisioterapia <br>e Fitness"
+    }
+  },
+
+  "flex-layout.col#mobilidade": {
+    "children": ["link#mobilidade"]
+  },
+  "link#mobilidade": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/acessibilidade-e-mobilidade"
+    },
+    "children": ["image#mobilidade", "rich-text#mobilidade-text"]
+  },
+  "image#mobilidade": {
+    "props": {
+      "src": "assets/images/mobilidade.svg"
+    }
+  },
+  "rich-text#mobilidade-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Acessibilidade <br>e Mobilidade"
+    }
+  },
+
+  "flex-layout.col#pessoais": {
+    "children": ["link#pessoais"]
+  },
+  "link#pessoais": {
+    "props": {
+      "blockClass": "category-link",
+      "href": "/cuidados"
+    },
+    "children": ["image#pessoais", "rich-text#pessoais-text"]
+  },
+  "image#pessoais": {
+    "props": {
+      "src": "assets/images/pessoais.svg"
+    }
+  },
+  "rich-text#pessoais-text": {
+    "props": {
+      "blockClass": "category-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Cuidados <br>Pessoais"
+    }
+  },
+
+  "flex-layout.row#fourth-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf4-title", "flex-layout.row#shelf4"]
+  },
+  "flex-layout.row#shelf4-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf4-title"]
+  },
+  "rich-text#shelf4-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
+  "flex-layout.row#shelf4": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo4"]
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products4"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "flex-layout.row#fifth-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf5-title", "flex-layout.row#shelf5"]
+  },
+  "flex-layout.row#shelf5-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf5-title"]
+  },
+  "rich-text#shelf5-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
+  "flex-layout.row#shelf5": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo5"]
+  },
+  "list-context.product-list#demo5": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products5"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products5": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "flex-layout.row#sixth-shelf": {
+    "props": {
+      "blockClass": "other-shelf"
+    },
+    "children": ["flex-layout.row#shelf6-title", "flex-layout.row#shelf6"]
+  },
+  "flex-layout.row#shelf6-title": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#shelf6-title"]
+  },
+  "rich-text#shelf6-title": {
+    "props": {
+      "text": "Nome categoria",
+      "blockClass": "other-shelf-title"
+    }
+  },
+  "flex-layout.row#shelf6": {
+    "props": {
+      "blockClass": "shelf-box"
+    },
+    "children": ["list-context.product-list#demo6"]
+  },
+  "list-context.product-list#demo6": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products6"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products6": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showPaginationDots": "never",
+      "blockClass": "product-shelf"
+    }
+  },
+
+  "rich-text#our-blog": {
+    "props": {
+      "blockClass": "our-blog",
+      "text": "Nosso blog"
+    }
+  },
+
+  "flex-layout.row#newsletter": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": "newsletter-box"
+    },
+    "children": [
+      "rich-text#newsletter-text", 
+      "link#newsletter-button"
+    ]
+  },
+  "rich-text#newsletter-text": {
+    "props": {
+      "text": "Cadastre-se e seja um seller",
+      "blockClass": "newsletter-text"
+    }
+  },
+  "link#newsletter-button": {
+    "props": {
+      "label": "Canal Seller",
+      "href": "",
+      "blockClass": "newsletter-button"
+    }
+  }
+}

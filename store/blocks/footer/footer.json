@@ -1,0 +1,228 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": "footer-container"
+    },
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#logo",
+      "flex-layout.col#institutional",
+      "flex-layout.col#doubt",
+      "flex-layout.col#contact",
+      "flex-layout.col#payment"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#logo": {
+    "children": ["image#footer-logo"]
+  },
+  "image#footer-logo": {
+    "props": {
+      "src": "assets/images/footer-logo.svg"
+    }
+  },
+
+  "flex-layout.col#institutional": {
+    "props": {
+      "blockClass": "institutional-container",
+      "width": "20%"
+    },
+    "children": [
+      "rich-text#institutional",
+      "link#about-us",
+      "link#brand",
+      "link#seller"
+    ]
+  },
+  "rich-text#institutional": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "INSTITUCIONAL"
+    }
+  },
+  "link#about-us": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Sobre Nós"
+    }
+  },
+  "link#brand": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Nossas Marcas"
+    }
+  },
+  "link#seller": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Seja um vendedor"
+    }
+  },
+
+  "flex-layout.col#doubt": {
+    "props": {
+      "blockClass": "doubt-container",
+      "width": "20%"
+    },
+    "children": [
+      "rich-text#doubt",
+      "link#payment-deadline",
+      "link#exchange",
+      "link#privacy",
+      "link#terms"
+    ]
+  },
+  "rich-text#doubt": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "DÚVIDAS"
+    }
+  },
+  "link#payment-deadline": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/" ,
+      "label": "Prazo e Formas de Pagamento"
+    }
+  },
+  "link#exchange": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Política de Trocas"
+    }
+  },
+  "link#privacy": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Política de Privaciade e Segurança"
+    }
+  },
+  "link#terms": {
+    "props": {
+      "blockClass": "footer-text",
+      "href": "/",
+      "label": "Termos e Condições de Uso"
+    }
+  },
+
+  "flex-layout.col#contact": {
+    "props": {
+      "width": "22%"
+    },
+    "children": [
+      "rich-text#contact",
+      "rich-text#wpp",
+      "rich-text#contact-email"
+    ]
+  },
+  "rich-text#contact": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "ATENDIMENTO"
+    }
+  },
+  "rich-text#wpp": {
+    "props": {
+      "blockClass": "footer-text",
+      "text": "Whatsapp | (42) 984340311"
+    }
+  },
+  "rich-text#contact-email": {
+    "props": {
+      "blockClass": "footer-text",
+      "text": "E-mail | contato@hospitalarshop.com.br"
+    }
+  },
+
+  "flex-layout.col#payment": {
+    "props": {
+      "width": "16%"
+    },
+    "children": ["accepted-payment-methods"]
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "showInColor": true,
+      "blockClass": "payment-methods",
+      "paymentMethods": ["MasterCard", "Visa"]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["social-networks"],
+    "props": {
+    }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "social-media",
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        }
+      ]
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "",
+      "blockClass": "footer"
+    }
+  }
+}

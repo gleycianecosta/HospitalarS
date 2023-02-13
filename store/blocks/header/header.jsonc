@@ -1,0 +1,381 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#top-menu-desktop",
+      "sticky-layout#header-desktop"
+    ]
+  },
+
+  "flex-layout.row#top-menu-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#top-menu"
+    ]
+  },
+  "flex-layout.row#top-menu": {
+    "props": {
+      "blockClass": "top-menu",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["rich-text#top-menu"]
+  },
+  "rich-text#top-menu": {
+    "props": {
+      "text": "GANHE 5% DE DESCONTO NA PRIMEIRA COMPRA",
+      "blockClass": "top-menu-text"
+    }
+  },
+
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#main-header-desktop", "flex-layout.row#sub-header-desktop"]
+  },
+  "flex-layout.row#main-header-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar#header",
+      "flex-layout.row#contact-desktop",
+      "flex-layout.row#minicart-desktop",
+      "flex-layout.col#login-text"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "center"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "https://www.hospitalarshop.com.br/",
+      "url": "assets/images/hospitalarlogo.svg",
+      "width": 308,
+      "height": 90,
+      "blockClass": "logo-image"
+    }
+  },
+
+  "search-bar#header": {
+    "props": {
+      "placeholder": "Buscar",
+      "compactMode": false,
+      "openAutocompleteOnFocus": true,
+      "containerMode": "container",
+      "displayMode": "clear-button",
+      "blockClass": "header-search"
+    }
+  },
+
+  "flex-layout.row#contact-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "contact-box"
+    },
+    "children": ["flex-layout.col#contact-image", "flex-layout.col#contact-desktop"]
+  },
+  "flex-layout.col#contact-image": {
+    "props": {
+      "blockClass": "contact-image-box"
+    },
+    "children": ["image#contact-image"]
+  },
+  "image#contact-image": {
+    "props": {
+      "src": "assets/images/whatsapp.svg",
+      "width": 42,
+      "height": 40,
+      "blockClass": "wpp-image"
+    }
+  },
+  "flex-layout.col#contact-desktop": {
+    "props": {
+      "blockClass": "contact-text-box"
+    },
+    "children": ["rich-text#contact-text", "rich-text#contact-number"]
+  },
+  "rich-text#contact-text": {
+    "props": {
+      "text": "Whatsapp",
+      "blockClass": "contact-text"
+    }
+  },
+  "rich-text#contact-number": {
+    "props": {
+      "text": "(11) 3042-8333",
+      "blockClass": "contact-number"
+    }
+  },
+
+  "flex-layout.row#minicart-desktop": {
+    "props": {
+      "blockClass": "minicart-icon-box"
+    },
+    "children": ["flex-layout.col#minicart-icon", "flex-layout.col#minicart-text"]
+  },
+  "flex-layout.col#minicart-icon": {
+    "props": {
+      "blockClass": "minicart-icon"
+    },
+    "children": ["minicart.v2#desktop"]
+  },
+  "minicart.v2#desktop": {
+    "children": ["minicart-base-content"],
+    "props": {
+      "customPixelEventId": "add-to-cart-button",
+      "itemCountMode": "totalAvailable",
+      "blockClass": "minicart-desktop"
+    }
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "product-list-content-mobile": {
+    "children": ["flex-layout.row#cartSummary"]
+  },
+  "flex-layout.row#cartSummary": {
+    "children": [
+      "flex-layout.col#minicart-product-image",
+      "flex-layout.col#productInfo"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": "5",
+      "paddingTop": "5",
+      "colGap": 0,
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "cart-summary"
+    }
+  },
+  "flex-layout.col#minicart-product-image": {
+    "children": ["product-list-image#minicart"],
+    "props": {
+      "blockClass": "minicart-product-image"
+    }
+  },
+  "product-list-image#minicart": {
+    "props": {
+      "width": 64
+    }
+  },
+  "flex-layout.col#productInfo": {
+    "children": [
+      "flex-layout.row#productInfo__brand",
+      "flex-layout.row#productInfo__name",
+      "flex-layout.row#bottomInfo"
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": "minicart-product-info"
+    }
+  },
+  "flex-layout.row#productInfo__brand": {
+    "children": ["vtex.product-list:product-brand#minicart", "remove-button"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "minicart"
+    }
+  },
+  "vtex.product-list:product-brand#minicart": {
+    "props": {
+      "blockClass": "minicart"
+    }
+  },
+  "flex-layout.row#productInfo__name": {
+    "children": ["vtex.product-list:product-name#minicart"],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "vtex.product-list:product-name#minicart": {
+    "props": {
+      "blockClass": "minicart"
+    }
+  },
+  "flex-layout.row#bottomInfo": {
+    "children": ["quantity-selector#minicart", "price#mobile"],
+    "props": {
+      "verticalAlign": "middle",
+      "colSizing": "auto",
+      "blockClass": "bottom-info",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "quantity-selector#minicart": {
+    "props": {
+      "blockClass": "minicart"
+    }
+  },
+  "price#mobile": {
+    "props": {
+      "showListPrice": false,
+      "blockClass": "minicart"
+    }
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": false,
+      "showDeliveryTotal": false
+    }
+  },
+
+  "minicart-checkout-button": {
+    "props": {
+      "blockClass": "minicart-checkout"
+    }
+  },
+
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5,
+      "blockClass": "empty-cart",
+      "preventVerticalStretch": true
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 96,
+      "viewBox": "0 0 96 96",
+      "blockClass": "minicart-empty-state",
+      "id": "minicart-empty"
+    }
+  },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "blockClass": "minicart-empty-title",
+      "text": "**Desculpe você não tem produtos aqui =(** \n\n Volte e explore para adicionar produtos no seu carrinho de compras."
+    }
+  },
+
+  "flex-layout.col#minicart-text": {
+    "props": {
+      "blockClass": "minicart-box"
+    },
+    "children": ["link#minicart-text"]
+  },
+  "link#minicart-text": {
+    "props": {
+      "label": "Meu Carrinho",
+      "blockClass": "minicart-text"
+    }
+  },
+  "flex-layout.col#login-text": {
+      "props":{
+        "blockClass": "login-box",
+        "verticalAlign": "center"
+      },
+      "children": ["login#text"]
+  },
+  "login#text": {
+      "props":{
+            "text": "ou Cadastrar",
+            "blockClass": "text-login"
+      }
+    
+    }, 
+  
+
+  "flex-layout.row#sub-header-desktop": {
+    "props": {
+      "blockClass": "submenu-box",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+    
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  }
+}

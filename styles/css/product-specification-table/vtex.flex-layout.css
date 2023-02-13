@@ -1,0 +1,29 @@
+.flexRow--productSpecificationGroup:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.flexRow--productSpecificationGroupName {
+  background-color: #73C2AD1A;
+  border: none;
+  border-radius: 27px;
+  padding: 0.5rem 1rem;
+}
+
+.flexCol--productSpecificationName {
+  padding: 1rem;
+}
+
+.flexCol--productSpecificationValue {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.flexRow--productSpecificationGroup {
+  margin: 0 5% 120px 5%;
+  font-family: 'Calibri', sans-serif;
+}
+
+.flexRow--productSpecification:nth-child(even) {
+  background-color: #73C2AD1A;
+  border: none;
+  border-radius: 27px;
+}

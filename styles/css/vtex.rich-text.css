@@ -1,0 +1,238 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--top-menu-text {
+  color: #000;
+  font-weight: 400;
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+}
+
+.paragraph--contact-text {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  height: 15px;
+}
+
+.paragraph--contact-number {
+  color: #73C2AD;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  height: 21px;
+}
+
+.paragraph--submenu-title {
+  margin: 0;
+  color: #73C2AD;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 700;
+}
+
+/* MINICART */
+
+.paragraph--minicart-empty-title {
+  text-align: center;
+}
+
+/* HOMEPAGE */
+
+.container--shelfTitle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paragraph--shelfTitle {
+  color: #000;
+  font-family: 'Laila', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0 80px;
+}
+
+.paragraph--other-shelf-title {
+  color: #000;
+  font-family: 'Laila', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 0 210px;
+}
+
+.paragraph--info-shelf-text {
+  color: #b0b0b0;
+  line-height: 1.25;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.paragraph--category-text {
+  color: #000;
+}
+
+.container--our-blog {
+  padding: 17px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  background-color: #73C2AD;
+  color: #000;
+}
+
+.paragraph--footer-title {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Calibri', sans-serif;
+  color: #fff;
+  border-bottom: 1px solid #FFFFFF4D;
+  width: 145px;
+}
+.paragraph--footer-text{
+  font-size: 15px;
+  font-family: 'Calibri',sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin: 0%;
+}
+/* BLOG */
+
+.paragraph--post-title {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Calibri', sans-serif;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.paragraph--post-summary {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.paragraph--most-popular-text { 
+  width: 133px;
+  font-weight: 700;
+  font-family: 'Calibri', sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.paragraph--social-media-title {
+  font-weight: 700;
+  font-family: 'Calibri', sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+/* NEWSLETTER */
+
+.paragraph--newsletter-text {
+  width: 406px;
+  margin-right: 20px;
+  font-size: 32px;
+  color: #000000CC;
+}
+
+/* *****PRODUCT-PAGE****** */
+
+.wrapper--specifications-title :global(.vtex-rich-text-0-x-heading) {
+  padding: 0 66px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

@@ -1,0 +1,297 @@
+.styledLinkContent--first-menu::before {
+    content: url("assets/images/menu.svg");
+    width: 25px;
+}
+
+.styledLinkContent--first-menu {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.submenuWrapper--menu-box--isOpen {
+    margin-left: 0;
+    padding: 0;
+}
+
+.menuContainer--submenu-box {
+    width: 352px;
+}
+
+.menuItem--menu-even--isClosed, .menuItem--menu-even--isOpen {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContent--menu-style {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Calibri', sans-serif;
+    color: #000;
+}
+
+.menuItem--menu-style--isOpen {
+    background-color: #73C2AD;
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.styledLinkContainer--submenu-content, .styledLinkContent--submenu-content {
+    margin: 0;
+    color: #000;
+    font-size: 12px;
+    font-family: 'Calibri', sans-serif;
+    line-height: 1.5;
+}
+
+.submenu--sub-submenu {
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.styledLinkContainer--menu-style {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.styledLinkContent--submenu-content:hover {
+    font-weight: 700;
+}
+
+/* TENTATIVA DE ESTILIZACAO DOS SUB-MENUS */
+
+.submenuWrapper--sub-submenu1--isOpen, .submenu--sub-submenu1 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -11px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu2--isOpen, .submenu--sub-submenu2 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -33px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu3--isOpen, .submenu--sub-submenu3 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -54px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu4--isOpen, .submenu--sub-submenu4 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -76px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu5--isOpen, .submenu--sub-submenu5 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -98px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu6--isOpen, .submenu--sub-submenu6 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -120px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu7--isOpen, .submenu--sub-submenu7 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -142px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu8--isOpen, .submenu--sub-submenu8 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -163px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu9--isOpen, .submenu--sub-submenu9 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -185px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu10--isOpen, .submenu--sub-submenu10 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -207px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu11--isOpen, .submenu--sub-submenu11 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -229px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu12--isOpen, .submenu--sub-submenu12 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -251px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu13--isOpen, .submenu--sub-submenu13 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -272px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu14--isOpen, .submenu--sub-submenu14 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -294px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu15--isOpen, .submenu--sub-submenu15 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -316px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu16--isOpen, .submenu--sub-submenu16 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -338px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu17--isOpen, .submenu--sub-submenu17 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -360px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu18--isOpen, .submenu--sub-submenu18 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -381px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu19--isOpen, .submenu--sub-submenu19 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -403px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu20--isOpen, .submenu--sub-submenu20 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -425px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu21--isOpen, .submenu--sub-submenu21 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -447px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu22--isOpen, .submenu--sub-submenu22 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -469px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu23--isOpen, .submenu--sub-submenu23 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -490px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu24--isOpen, .submenu--sub-submenu24 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -512px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.submenuWrapper--sub-submenu25--isOpen, .submenu--sub-submenu25 {
+    width: 280px;
+    height: 100vh;
+    margin-left: 0;
+    top: -534px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}

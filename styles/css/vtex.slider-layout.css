@@ -1,0 +1,63 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: #F0F0F0;
+  min-height: 450px;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+  min-height: 550px;
+}
+
+.slide--shelf {
+  background-color: #fff;
+
+  margin-bottom: 25px;
+  margin-right: 15px;
+  height: 210px;
+  border-radius: 19px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.slide--shelf:hover {
+  box-shadow: 4px 4px 4px 4px #00000040;
+}
+
+.sliderLayoutContainer--product-shelf {
+  padding: 0 150px;
+}
+
+.slide--product-shelf {
+  width: 250px;
+  height: 403px;
+  background-color: #fff;
+
+  margin-bottom: 25px;
+  margin-right: 7px;
+  padding: 10px;
+
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.slide--product-shelf:hover {
+  box-shadow: 4px 4px 4px 0px #00000040;
+}
+
+.dotsContainer {
+  display: none;
+}

@@ -1,0 +1,3761 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-apparel"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "first-menu",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Todos Departamentos",
+        "text": "Todos Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto",
+      "blockClass": "menu-box"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-box"
+    },
+    "children": [
+      "menu-item#category-apparel-acessibilidade",
+      "menu-item#category-apparel-cuidados",
+      "menu-item#category-apparel-curativos",
+      "menu-item#category-apparel-diabetes",
+      "menu-item#category-apparel-equipamentos",
+      "menu-item#category-apparel-esterilizacao",
+      "menu-item#category-apparel-estetica",
+      "menu-item#category-apparel-fisioterapia",
+      "menu-item#category-apparel-ginecologia",
+      "menu-item#category-apparel-homecare",
+      "menu-item#category-apparel-instrumentos",
+      "menu-item#category-apparel-material",
+      "menu-item#category-apparel-medicamentos",
+      "menu-item#category-apparel-meias",
+      "menu-item#category-apparel-moveis",
+      "menu-item#category-apparel-nutricao",
+      "menu-item#category-apparel-odontologia",
+      "menu-item#category-apparel-oxigenoterapia",
+      "menu-item#category-apparel-laboratorio",
+      "menu-item#category-apparel-hospitalares",
+      "menu-item#category-apparel-ortopedicos",
+      "menu-item#category-apparel-protecao",
+      "menu-item#category-apparel-reabilitacao",
+      "menu-item#category-apparel-resgate",
+      "menu-item#category-apparel-vestuario"
+    ]
+  },
+  "menu-item#category-apparel-acessibilidade": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessibilidade-e-mobilidade/c?_c=acessibilidade-e-mobilidade&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Acessibilidade e Mobilidade",
+        "text": "Acessibilidade e Mobilidade"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessibilidade"]
+  },
+
+  "vtex.menu@2.x:submenu#acessibilidade": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#acessibilidade"
+    ]
+  },
+  "vtex.menu@2.x:menu#acessibilidade": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos1",
+                  "menu-item#category-apparel-andador",
+                  "menu-item#category-apparel-assentos",
+                  "menu-item#category-apparel-bengalas",
+                  "menu-item#category-apparel-banho",
+                  "menu-item#category-apparel-rodas",
+                  "menu-item#category-apparel-muleta",
+                  "menu-item#category-apparel-forracao",
+                  "menu-item#category-apparel-estabilizador"
+                ]
+  },
+  
+  "rich-text#produtos1": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+
+  "menu-item#category-apparel-andador": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Andador",
+        "text": "Andador"
+      }
+    }
+  },
+  "menu-item#category-apparel-assentos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Assentos",
+        "text": "Assentos"
+      }
+    }
+  },
+  "menu-item#category-apparel-bengalas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Bengalas",
+        "text": "Bengalas"
+      }
+    }
+  },
+  "menu-item#category-apparel-banho": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cadeira de Banho",
+        "text": "Cadeira de Banho"
+      }
+    }
+  },
+  "menu-item#category-apparel-rodas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cadeira de Rodas",
+        "text": "Cadeira de Rodas"
+      }
+    }
+  },
+  "menu-item#category-apparel-muleta": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Muleta",
+        "text": "Muleta"
+      }
+    }
+  },
+  "menu-item#category-apparel-forracao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Forração",
+        "text": "Forração"
+      }
+    }
+  },
+  "menu-item#category-apparel-estabilizador": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Estabilizador",
+        "text": "Estabilizador"
+      }
+    }
+  },
+  
+  "menu-item#category-apparel-cuidados": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-cuidados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidados/x?_c=cuidados&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Cuidados",
+        "text": "Cuidados"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#cuidados"]
+  },
+
+  "vtex.menu@2.x:submenu#cuidados": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu2"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#cuidados"
+    ]
+  },
+  "vtex.menu@2.x:menu#cuidados": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos2",
+                  "menu-item#category-apparel-calcados",
+                  "menu-item#category-apparel-conforto",
+                  "menu-item#category-apparel-higiene",
+                  "menu-item#category-apparel-cuidado",
+                  "menu-item#category-apparel-travesseiros",
+                  "menu-item#category-apparel-calcanheiras",
+                  "menu-item#category-apparel-podologia",
+                  "menu-item#category-apparel-palmilhas",
+                  "menu-item#category-apparel-gestantes"
+                ]
+  },
+
+  "rich-text#produtos2": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-calcados": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
+  },
+  "menu-item#category-apparel-conforto": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Conforto",
+        "text": "Conforto"
+      }
+    }
+  },
+  "menu-item#category-apparel-higiene": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Higiene Pessoal",
+        "text": "Higiene Pessoal"
+      }
+    }
+  },
+  "menu-item#category-apparel-cuidado": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cuidados Pessoais",
+        "text": "Cuidados Pessoais"
+      }
+    }
+  },
+  "menu-item#category-apparel-travesseiros": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Travesseiros",
+        "text": "Travesseiros"
+      }
+    }
+  },
+  "menu-item#category-apparel-calcanheiras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Calcanheiras",
+        "text": "Calcanheiras"
+      }
+    }
+  },
+  "menu-item#category-apparel-podologia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Podologia",
+        "text": "Podologia"
+      }
+    }
+  },
+  "menu-item#category-apparel-palmilhas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Palmilhas",
+        "text": "Palmilhas"
+      }
+    }
+  },
+  "menu-item#category-apparel-gestantes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Gestantes",
+        "text": "Gestantes"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-curativos": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-curativos",
+      "type": "custom",
+      "iconId": null, 
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/curativos/x?_c=curativos&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Curativos",
+        "text": "Curativos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#curativos"]
+  },
+
+  "vtex.menu@2.x:submenu#curativos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu3"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#curativos"
+    ]
+  },
+  "vtex.menu@2.x:menu#curativos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos3",
+                  "menu-item#category-apparel-algodao",
+                  "menu-item#category-apparel-antissepticos",
+                  "menu-item#category-apparel-ataduras",
+                  "menu-item#category-apparel-ocular",
+                  "menu-item#category-apparel-especiais",
+                  "menu-item#category-apparel-fitas",
+                  "menu-item#category-apparel-compressas",
+                  "menu-item#category-apparel-chumacos",
+                  "menu-item#category-apparel-esparadrapo"
+                ]
+  },
+  "rich-text#produtos3": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-algodao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Algodão",
+        "text": "Algodão"
+      }
+    }
+  },
+  "menu-item#category-apparel-antissepticos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Antissépticos",
+        "text": "Antissépticos"
+      }
+    }
+  },
+  "menu-item#category-apparel-ataduras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ataduras",
+        "text": "Ataduras"
+      }
+    }
+  },
+  "menu-item#category-apparel-ocular": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Curativos Ocular",
+        "text": "Curativos Ocular"
+      }
+    }
+  },
+  "menu-item#category-apparel-especiais": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Curativos Especiais",
+        "text": "Curativos Especiais"
+      }
+    }
+  },
+  "menu-item#category-apparel-fitas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fita Microporosa",
+        "text": "Fita Microporosa"
+      }
+    }
+  },
+  "menu-item#category-apparel-compressas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Compressas de Gaze",
+        "text": "Compressas de Gaze"
+      }
+    }
+  },
+  "menu-item#category-apparel-chumacos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Chumaços",
+        "text": "Chumaços"
+      }
+    }
+  },
+  "menu-item#category-apparel-esparadrapo": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Esparadrapo",
+        "text": "Esparadrapo"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-diabetes": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-diabetes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Diabetes",
+        "text": "Diabetes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#diabetes"]
+  },
+
+  "vtex.menu@2.x:submenu#diabetes": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu4"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#diabetes"
+    ]
+  },
+  "vtex.menu@2.x:menu#diabetes": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos",
+                  "menu-item#category-apparel-agulha",
+                  "menu-item#category-apparel-canetas",
+                  "menu-item#category-apparel-glicosimetros",
+                  "menu-item#category-apparel-lancetas",
+                  "menu-item#category-apparel-seringas",
+                  "menu-item#category-apparel-tiras"
+                ]
+  },
+  "rich-text#produtos": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-agulha": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Agulha de Insulina",
+        "text": "Agulha de Insulina"
+      }
+    }
+  },
+  "menu-item#category-apparel-canetas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Canetas de Insulina",
+        "text": "Canetas de Insulina"
+      }
+    }
+  },
+  "menu-item#category-apparel-glicosimetros": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Glicosímetros",
+        "text": "Glicosímetros"
+      }
+    }
+  },
+  "menu-item#category-apparel-lancetas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lancetas",
+        "text": "Lancetas"
+      }
+    }
+  },
+  "menu-item#category-apparel-seringas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Seringas de Insulina",
+        "text": "Seringas de Insulina"
+      }
+    }
+  },
+  "menu-item#category-apparel-tiras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tiras de Testes",
+        "text": "Tiras de Testes"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-equipamentos": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-equipamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Equipamentos Médicos",
+        "text": "Equipamentos Médicos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#equipamentos"]
+  },
+
+  "vtex.menu@2.x:submenu#equipamentos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu5"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#equipamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#equipamentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos4",
+                  "menu-item#category-apparel-acessorios",
+                  "menu-item#category-apparel-aparelhos",
+                  "menu-item#category-apparel-balancas",
+                  "menu-item#category-apparel-detector",
+                  "menu-item#category-apparel-estetoscopios",
+                  "menu-item#category-apparel-lanterna",
+                  "menu-item#category-apparel-maletas",
+                  "menu-item#category-apparel-oftalmoscopios",
+                  "menu-item#category-apparel-otoscopios",
+                  "menu-item#category-apparel-oximetros",
+                  "menu-item#category-apparel-termometros"
+                ]
+  },
+  "rich-text#produtos4": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-acessorios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Acessórios de Equipamentos",
+        "text": "Acessórios de Equipamentos"
+      }
+    }
+  },
+  "menu-item#category-apparel-aparelhos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Aparelhos de Pressão",
+        "text": "Aparelhos de Pressão"
+      }
+    }
+  },
+  "menu-item#category-apparel-balancas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Balanças",
+        "text": "Balanças"
+      }
+    }
+  },
+  "menu-item#category-apparel-detector": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Detector Fetal",
+        "text": "Detector Fetal"
+      }
+    }
+  },
+  "menu-item#category-apparel-estetoscopios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Estetoscópios",
+        "text": "Estetoscópios"
+      }
+    }
+  },
+  "menu-item#category-apparel-lanterna": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lanterna Clínica",
+        "text": "Lanterna Clínica"
+      }
+    }
+  },
+  "menu-item#category-apparel-maletas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Maletas",
+        "text": "Maletas"
+      }
+    }
+  },
+  "menu-item#category-apparel-oftalmoscopios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Oftalmoscópios",
+        "text": "Oftalmoscópios"
+      }
+    }
+  },
+  "menu-item#category-apparel-otoscopios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Otoscópios",
+        "text": "Otoscópios"
+      }
+    }
+  },
+  "menu-item#category-apparel-oximetros": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Oxímetros",
+        "text": "Oxímetros"
+      }
+    }
+  },
+  "menu-item#category-apparel-termometros": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Termômetros",
+        "text": "Termômetros"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-esterilizacao": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-esterilizacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Esterilização e Limpeza",
+        "text": "Esterilização e Limpeza"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#esterilizacao"]
+  },
+
+  "vtex.menu@2.x:submenu#esterilizacao": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu6"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#esterilizacao"
+    ]
+  },
+  "vtex.menu@2.x:menu#esterilizacao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos5",
+                  "menu-item#category-apparel-autoclaves",
+                  "menu-item#category-apparel-controle",
+                  "menu-item#category-apparel-embalagens",
+                  "menu-item#category-apparel-incubadoras",
+                  "menu-item#category-apparel-limpeza",
+                  "menu-item#category-apparel-saneantes",
+                  "menu-item#category-apparel-seladoras"
+                ]
+  },
+  "rich-text#produtos5": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-autoclaves": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Autoclaves",
+        "text": "Autoclaves"
+      }
+    }
+  },
+  "menu-item#category-apparel-controle": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Controle de Esterilização",
+        "text": "Controle de Esterilização"
+      }
+    }
+  },
+  "menu-item#category-apparel-embalagens": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Embalagens de Esterilização",
+        "text": "Embalagens de Esterilização"
+      }
+    }
+  },
+  "menu-item#category-apparel-incubadoras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Incubadoras",
+        "text": "Incubadoras"
+      }
+    }
+  },
+  "menu-item#category-apparel-limpeza": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Limpeza",
+        "text": "Limpeza"
+      }
+    }
+  },
+  "menu-item#category-apparel-saneantes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Saneantes",
+        "text": "Saneantes"
+      }
+    }
+  },
+  "menu-item#category-apparel-seladoras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Seladoras",
+        "text": "Seladoras"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-estetica": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-estetica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Estética",
+        "text": "Estética"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#estetica"]
+  },
+
+  "vtex.menu@2.x:submenu#estetica": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu7"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#estetica"
+    ]
+  },
+  "vtex.menu@2.x:menu#estetica": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos6",
+                  "menu-item#category-apparel-aparelhos-e",
+                  "menu-item#category-apparel-modeladores",
+                  "menu-item#category-apparel-beleza"
+                ]
+  },
+  "rich-text#produtos6": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-aparelhos-e": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Aparelhos de Estética",
+        "text": "Aparelhos de Estética"
+      }
+    }
+  },
+  "menu-item#category-apparel-modeladores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Modeladores",
+        "text": "Modeladores"
+      }
+    }
+  },
+  "menu-item#category-apparel-beleza": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Produtos de Beleza",
+        "text": "Produtos de Beleza"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-fisioterapia": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-fisioterapia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Fisioterapia e Fitness",
+        "text": "Fisioterapia e Fitness"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fisioterapia"]
+  },
+
+  "vtex.menu@2.x:submenu#fisioterapia": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu8"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#fisioterapia"
+    ]
+  },
+  "vtex.menu@2.x:menu#fisioterapia": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos7",
+                  "menu-item#category-apparel-f-aparelhos",
+                  "menu-item#category-apparel-avaliacao",
+                  "menu-item#category-apparel-bicicletas",
+                  "menu-item#category-apparel-cinesioterapia",
+                  "menu-item#category-apparel-colchonetes",
+                  "menu-item#category-apparel-eletroterapia",
+                  "menu-item#category-apparel-esportes",
+                  "menu-item#category-apparel-respiratorio",
+                  "menu-item#category-apparel-gel",
+                  "menu-item#category-apparel-hidroterapia",
+                  "menu-item#category-apparel-infravermelho",
+                  "menu-item#category-apparel-pilates",
+                  "menu-item#category-apparel-posicionadores"
+                ]
+  },
+  "rich-text#produtos7": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-f-aparelhos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Aparelhos",
+        "text": "Aparelhos"
+      }
+    }
+  },
+  "menu-item#category-apparel-avaliacao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Avaliação e Medição",
+        "text": "Avaliação e Medição"
+      }
+    }
+  },
+  "menu-item#category-apparel-bicicletas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    }
+  },
+  "menu-item#category-apparel-cinesioterapia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cinesioterapia",
+        "text": "Cinesioterapia"
+      }
+    }
+  },
+  "menu-item#category-apparel-colchonetes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Colchonetes",
+        "text": "Colchonetes"
+      }
+    }
+  },
+  "menu-item#category-apparel-eletroterapia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Eletroterapia",
+        "text": "Eletroterapia"
+      }
+    }
+  },
+  "menu-item#category-apparel-esportes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Esportes",
+        "text": "Esportes"
+      }
+    }
+  },
+  "menu-item#category-apparel-respiratorio": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fisioterapia Respiratória",
+        "text": "Fisioterapia Respiratória"
+      }
+    }
+  },
+  "menu-item#category-apparel-gel": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Gel",
+        "text": "Gel"
+      }
+    }
+  },
+  "menu-item#category-apparel-hidroterapia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Hidroterapia",
+        "text": "Hidroterapia"
+      }
+    }
+  },
+  "menu-item#category-apparel-infravermelho": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Infravermelho",
+        "text": "Infravermelho"
+      }
+    }
+  },
+  "menu-item#category-apparel-pilates": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Pilates",
+        "text": "Pilates"
+      }
+    }
+  },
+  "menu-item#category-apparel-posicionadores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Posicionadores",
+        "text": "Posicionadores"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-ginecologia": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-ginecologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Ginecologia e Obstetrícia",
+        "text": "Ginecologia e Obstetrícia"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ginecologia"]
+  },
+
+  "vtex.menu@2.x:submenu#ginecologia": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu9"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#ginecologia"
+    ]
+  },
+  "vtex.menu@2.x:menu#ginecologia": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos8",
+                  "menu-item#category-apparel-diu",
+                  "menu-item#category-apparel-g-equipamentos",
+                  "menu-item#category-apparel-escova",
+                  "menu-item#category-apparel-especulo"
+                ]
+  },
+  "rich-text#produtos8": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-diu": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Diu",
+        "text": "Diu"
+      }
+    }
+  },
+  "menu-item#category-apparel-g-equipamentos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Equipamentos",
+        "text": "Equipamentos"
+      }
+    }
+  },
+  "menu-item#category-apparel-escova": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Escova Cervical",
+        "text": "Escova Cervical"
+      }
+    }
+  },
+  "menu-item#category-apparel-especulo": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Espéculo Vaginal",
+        "text": "Espéculo Vaginal"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-homecare": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-homecare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Homecare",
+        "text": "Homecare"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#homecare"]
+  },
+
+  "vtex.menu@2.x:submenu#homecare": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu10"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#homecare"
+    ]
+  },
+  "vtex.menu@2.x:menu#homecare": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos9",
+                  "menu-item#category-apparel-leito",
+                  "menu-item#category-apparel-fralda",
+                  "menu-item#category-apparel-incontinencia",
+                  "menu-item#category-apparel-ostomias"
+                ]
+  },
+  "rich-text#produtos9": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-leito": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cuidados no Leito",
+        "text": "Cuidados no Leito"
+      }
+    }
+  },
+  "menu-item#category-apparel-fralda": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fralda Geriátrica",
+        "text": "Fralda Geriátrica"
+      }
+    }
+  },
+  "menu-item#category-apparel-incontinencia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Incontinência Urinária",
+        "text": "Incontinência Urinária"
+      }
+    }
+  },
+  "menu-item#category-apparel-ostomias": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ostomias",
+        "text": "Ostomias"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-instrumentos": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-instrumentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Instrumento Cirúrgico",
+        "text": "Instrumento Cirúrgico"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#instrumentos"]
+  },
+
+  "vtex.menu@2.x:submenu#instrumentos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu11"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#instrumentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#instrumentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos10",
+                  "menu-item#category-apparel-afastadores",
+                  "menu-item#category-apparel-cabo",
+                  "menu-item#category-apparel-cubas",
+                  "menu-item#category-apparel-estojos",
+                  "menu-item#category-apparel-obstetrico",
+                  "menu-item#category-apparel-i-ortopedico",
+                  "menu-item#category-apparel-pincas",
+                  "menu-item#category-apparel-porta",
+                  "menu-item#category-apparel-tesouras"
+                ]
+  },
+  "rich-text#produtos10": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-afastadores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Afastadores",
+        "text": "Afastadores"
+      }
+    }
+  },
+  "menu-item#category-apparel-cabo": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cabo de Bisturi",
+        "text": "Cabo de Bisturi"
+      }
+    }
+  },
+  "menu-item#category-apparel-cubas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cubas",
+        "text": "Cubas"
+      }
+    }
+  },
+  "menu-item#category-apparel-estojos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Estojos",
+        "text": "Estojos"
+      }
+    }
+  },
+  "menu-item#category-apparel-obstetrico": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Instrumental Ginecológico-Obstétrico",
+        "text": "Instrumental Ginecológico-Obstétrico"
+      }
+    }
+  },
+  "menu-item#category-apparel-i-ortopedico": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Instrumental Ortopédico",
+        "text": "Instrumental Ortopédico"
+      }
+    }
+  },
+  "menu-item#category-apparel-pincas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Pinças",
+        "text": "Pinças"
+      }
+    }
+  },
+  "menu-item#category-apparel-porta": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Porta Agulha",
+        "text": "Porta Agulha"
+      }
+    }
+  },
+  "menu-item#category-apparel-tesouras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tesouras",
+        "text": "Tesouras"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-material": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-material",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Material de Consumo",
+        "text": "Material de Consumo"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#material"]
+  },
+
+  "vtex.menu@2.x:submenu#material": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu12"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#material"
+    ]
+  },
+  "vtex.menu@2.x:menu#material": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos11",
+                  "menu-item#category-apparel-m-gel",
+                  "menu-item#category-apparel-lencol",
+                  "menu-item#category-apparel-papel"
+                ]
+  },
+  "rich-text#produtos11": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-m-gel": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Gel",
+        "text": "Gel"
+      }
+    }
+  },
+  "menu-item#category-apparel-lencol": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lençol",
+        "text": "Lençol"
+      }
+    }
+  },
+  "menu-item#category-apparel-papel": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Papel Toalha",
+        "text": "Papel Toalha"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-medicamentos": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-medicamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Medicamentos",
+        "text": "Medicamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#medicamentos"]
+  },
+
+  "vtex.menu@2.x:submenu#medicamentos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu13"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#medicamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#medicamentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos12",
+                  "menu-item#category-apparel-anestesicos",
+                  "menu-item#category-apparel-laxantes",
+                  "menu-item#category-apparel-solucao"
+                ]
+  },
+  "rich-text#produtos12": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-anestesicos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Anestésicos",
+        "text": "Anestésicos"
+      }
+    }
+  },
+  "menu-item#category-apparel-laxantes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Laxantes",
+        "text": "Laxantes"
+      }
+    }
+  },
+  "menu-item#category-apparel-solucao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Solução Ensovenosa",
+        "text": "Solução Ensovenosa"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-meias": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-meias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Meias Medicinais",
+        "text": "Meias Medicinais"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#meias"]
+  },
+
+  "vtex.menu@2.x:submenu#meias": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu14"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#meias"
+    ]
+  },
+  "vtex.menu@2.x:menu#meias": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos13",
+                  "menu-item#category-apparel-bracadeiras",
+                  "menu-item#category-apparel-compressivas"
+                ]
+  },
+  "rich-text#produtos13": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-bracadeiras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Braçadeiras Compressivas",
+        "text": "Braçadeiras Compressivas"
+      }
+    }
+  },
+  "menu-item#category-apparel-compressivas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Meias Compressivas",
+        "text": "Meias Compressivas"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-moveis": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Móveis",
+        "text": "Móveis"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#moveis"]
+  },
+
+  "vtex.menu@2.x:submenu#moveis": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu15"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#moveis"
+    ]
+  },
+  "vtex.menu@2.x:menu#moveis": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos14",
+                  "menu-item#category-apparel-armarios",
+                  "menu-item#category-apparel-biombos",
+                  "menu-item#category-apparel-cama",
+                  "menu-item#category-apparel-divas",
+                  "menu-item#category-apparel-escadas",
+                  "menu-item#category-apparel-luminarias",
+                  "menu-item#category-apparel-mesa",
+                  "menu-item#category-apparel-mochos",
+                  "menu-item#category-apparel-poltrona",
+                  "menu-item#category-apparel-suportes"
+                ]
+  },
+  "rich-text#produtos14": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-armarios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Armários",
+        "text": "Armários"
+      }
+    }
+  },
+  "menu-item#category-apparel-biombos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Biombos",
+        "text": "Biombos"
+      }
+    }
+  },
+  "menu-item#category-apparel-cama": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cama Hospitalar",
+        "text": "Cama Hospitalar"
+      }
+    }
+  },
+  "menu-item#category-apparel-divas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Divâs e Macas",
+        "text": "Divâs e Macas"
+      }
+    }
+  },
+  "menu-item#category-apparel-escadas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Escadas",
+        "text": "Escadas"
+      }
+    }
+  },
+  "menu-item#category-apparel-luminarias": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Luminárias",
+        "text": "Luminárias"
+      }
+    }
+  },
+  "menu-item#category-apparel-mesa": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Mesa Auxiliar",
+        "text": "Mesa Auxiliar"
+      }
+    }
+  },
+  "menu-item#category-apparel-mochos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Mochos",
+        "text": "Mochos"
+      }
+    }
+  },
+  "menu-item#category-apparel-poltrona": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Poltrona",
+        "text": "Poltrona"
+      }
+    }
+  },
+  "menu-item#category-apparel-suportes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Suportes",
+        "text": "Suportes"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-nutricao": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-nutricao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Nutrição",
+        "text": "Nutrição"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#nutricao"]
+  },
+
+  "vtex.menu@2.x:submenu#nutricao": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu16"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#nutricao"
+    ]
+  },
+  "vtex.menu@2.x:menu#nutricao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos15",
+                  "menu-item#category-apparel-dieta",
+                  "menu-item#category-apparel-equipe",
+                  "menu-item#category-apparel-frascos",
+                  "menu-item#category-apparel-sondas"
+                ]
+  },
+  "rich-text#produtos15": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-dieta": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Dieta Enteral",
+        "text": "Dieta Enteral"
+      }
+    }
+  },
+  "menu-item#category-apparel-equipe": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Equipo de Nutrição",
+        "text": "Equipo de Nutrição"
+      }
+    }
+  },
+  "menu-item#category-apparel-frascos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Frascos de Alimentação",
+        "text": "Frascos de Alimentação"
+      }
+    }
+  },
+  "menu-item#category-apparel-sondas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Sondas de Nutrição",
+        "text": "Sondas de Nutrição"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-odontologia": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-odontologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Odontologia",
+        "text": "Odontologia"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#odontologia"]
+  },
+
+  "vtex.menu@2.x:submenu#odontologia": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu17"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#odontologia"
+    ]
+  },
+  "vtex.menu@2.x:menu#odontologia": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos16",
+                  "menu-item#category-apparel-o-anestesicos",
+                  "menu-item#category-apparel-descartaveis",
+                  "menu-item#category-apparel-endodontia",
+                  "menu-item#category-apparel-ortodontia",
+                  "menu-item#category-apparel-periodontia"
+                ]
+  },
+  "rich-text#produtos16": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-o-anestesicos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Anestésicos",
+        "text": "Anestésicos"
+      }
+    }
+  },
+  "menu-item#category-apparel-descartaveis": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Descartáveis",
+        "text": "Descartáveis"
+      }
+    }
+  },
+  "menu-item#category-apparel-endodontia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Endodontia",
+        "text": "Endodontia"
+      }
+    }
+  },
+  "menu-item#category-apparel-ortodontia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Ortodontia",
+        "text": "Ortodontia"
+      }
+    }
+  },
+  "menu-item#category-apparel-periodontia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Periodontia",
+        "text": "Periodontia"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-oxigenoterapia": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-oxigenoterapia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Oxigenoterapia",
+        "text": "Oxigenoterapia"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#oxigenoterapia"]
+  },
+
+  "vtex.menu@2.x:submenu#oxigenoterapia": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu18"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#oxigenoterapia"
+    ]
+  },
+  "vtex.menu@2.x:menu#oxigenoterapia": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos17",
+                  "menu-item#category-apparel-cateter",
+                  "menu-item#category-apparel-concentradores",
+                  "menu-item#category-apparel-conexoes",
+                  "menu-item#category-apparel-mangueiras",
+                  "menu-item#category-apparel-mascaras",
+                  "menu-item#category-apparel-nebulizadores",
+                  "menu-item#category-apparel-reanimadores",
+                  "menu-item#category-apparel-tubo",
+                  "menu-item#category-apparel-valvulas"
+                ]
+  },
+  "rich-text#produtos17": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-cateter": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Catéter Nasal",
+        "text": "Catéter Nasal"
+      }
+    }
+  },
+  "menu-item#category-apparel-concentradores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Concentradores de Oxigênio",
+        "text": "Concentradores de Oxigênio"
+      }
+    }
+  },
+  "menu-item#category-apparel-conexoes": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Conexões",
+        "text": "Conexões"
+      }
+    }
+  },
+  "menu-item#category-apparel-mangueiras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Mangueiras",
+        "text": "Mangueiras"
+      }
+    }
+  },
+  "menu-item#category-apparel-mascaras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Máscaras de Oxigênio",
+        "text": "Máscaras de Oxigênio"
+      }
+    }
+  },
+  "menu-item#category-apparel-nebulizadores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Nebulizadores",
+        "text": "Nebulizadores"
+      }
+    }
+  },
+  "menu-item#category-apparel-reanimadores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Reanimadores",
+        "text": "Reanimadores"
+      }
+    }
+  },
+  "menu-item#category-apparel-tubo": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tubo de Oxigênio",
+        "text": "Tubo de Oxigênio"
+      }
+    }
+  },
+  "menu-item#category-apparel-valvulas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Válvulas",
+        "text": "Válvulas"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-laboratorio": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-laboratorio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Produtos de Laboratório",
+        "text": "Produtos de Laboratório"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#laboratorio"]
+  },
+  "vtex.menu@2.x:submenu#laboratorio": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu19"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#laboratorio"
+    ]
+  },
+  "vtex.menu@2.x:menu#laboratorio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos18",
+                  "menu-item#category-apparel-l-descartaveis",
+                  "menu-item#category-apparel-hematologia",
+                  "menu-item#category-apparel-i-laboratorio",
+                  "menu-item#category-apparel-microbiologia",
+                  "menu-item#category-apparel-teste",
+                  "menu-item#category-apparel-urinalise"
+                ]
+  },
+  "rich-text#produtos18": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-l-descartaveis": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Descartáveis",
+        "text": "Descartáveis"
+      }
+    }
+  },
+  "menu-item#category-apparel-hematologia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Hematologia",
+        "text": "Hematologia"
+      }
+    }
+  },
+  "menu-item#category-apparel-i-laboratorio": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Instrumentos de Laboratório",
+        "text": "Instrumentos de Laboratório"
+      }
+    }
+  },
+  "menu-item#category-apparel-microbiologia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Microbiologia",
+        "text": "Microbiologia"
+      }
+    }
+  },
+  "menu-item#category-apparel-teste": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Teste Rápido",
+        "text": "Teste Rápido"
+      }
+    }
+  },
+  "menu-item#category-apparel-urinalise": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Urinálise",
+        "text": "Urinálise"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-hospitalares": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-hospitalares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Produtos Hospitalares",
+        "text": "Produtos Hospitalares"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#hospitalares"]
+  },
+  "vtex.menu@2.x:submenu#hospitalares": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu20"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#hospitalares"
+    ]
+  },
+  "vtex.menu@2.x:menu#hospitalares": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos19",
+                  "menu-item#category-apparel-anestesia",
+                  "menu-item#category-apparel-central",
+                  "menu-item#category-apparel-cirurgia",
+                  "menu-item#category-apparel-clinicas",
+                  "menu-item#category-apparel-desinfeccao",
+                  "menu-item#category-apparel-fios",
+                  "menu-item#category-apparel-internamento",
+                  "menu-item#category-apparel-lavanderia",
+                  "menu-item#category-apparel-lixo",
+                  "menu-item#category-apparel-radiologia",
+                  "menu-item#category-apparel-infusao",
+                  "menu-item#category-apparel-intensiva"
+                ]
+  },
+  "rich-text#produtos19": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-anestesia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Anestesia",
+        "text": "Anestesia"
+      }
+    }
+  },
+  "menu-item#category-apparel-central": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Central de Esterilização",
+        "text": "Central de Esterilização"
+      }
+    }
+  },
+  "menu-item#category-apparel-cirurgia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Anestesia",
+        "text": "Anestesia"
+      }
+    }
+  },
+  "menu-item#category-apparel-l-anestesia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cirurgia",
+        "text": "Cirurgia"
+      }
+    }
+  },
+  "menu-item#category-apparel-clinicas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clínicas",
+        "text": "Clínicas"
+      }
+    }
+  },
+  "menu-item#category-apparel-desinfeccao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Desinfecção e Limpeza",
+        "text": "Desinfecção e Limpeza"
+      }
+    }
+  },
+  "menu-item#category-apparel-fios": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fios Cirúrgicos",
+        "text": "Fios Cirúrgicos"
+      }
+    }
+  },
+  "menu-item#category-apparel-internamento": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Internamento",
+        "text": "Internamento"
+      }
+    }
+  },
+  "menu-item#category-apparel-lavanderia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lavanderia",
+        "text": "Lavanderia"
+      }
+    }
+  },
+  "menu-item#category-apparel-lixo": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Lixo Hospitalar",
+        "text": "Lixo Hospitalar"
+      }
+    }
+  },
+  "menu-item#category-apparel-radiologia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Radiologia",
+        "text": "Radiologia"
+      }
+    }
+  },
+  "menu-item#category-apparel-infusao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Terapia de Infusão",
+        "text": "Terapia de Infusão"
+      }
+    }
+  },
+  "menu-item#category-apparel-intensiva": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Terapia Intensiva",
+        "text": "Terapia Intensiva"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-ortopedicos": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-ortopedicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos-ortopedicos/p?_c=produtos-ortopedicos&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Produtos Ortopédicos",
+        "text": "Produtos Ortopédicos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#ortopedicos"]
+  },
+  "vtex.menu@2.x:submenu#ortopedicos": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu21"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#ortopedicos"
+    ]
+  },
+  "vtex.menu@2.x:menu#ortopedicos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos20",
+                  "menu-item#category-apparel-cabeca",
+                  "menu-item#category-apparel-inferiores",
+                  "menu-item#category-apparel-superiores",
+                  "menu-item#category-apparel-tronco"
+                ]
+  },
+  "rich-text#produtos20": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-cabeca": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Cabeça e Pescoço",
+        "text": "Cabeça e Pescoço"
+      }
+    }
+  },
+  "menu-item#category-apparel-inferiores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Membros Inferiores",
+        "text": "Membros Inferiores"
+      }
+    }
+  },
+  "menu-item#category-apparel-superiores": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Membros Superiores",
+        "text": "Membros Superiores"
+      }
+    }
+  },
+  "menu-item#category-apparel-tronco": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Tronco",
+        "text": "Tronco"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-protecao": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-protecao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Proteção Profissional",
+        "text": "Proteção Profissional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#protecao"]
+  },
+  "vtex.menu@2.x:submenu#protecao": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu22"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#protecao"
+    ]
+  },
+  "vtex.menu@2.x:menu#protecao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos21",
+                  "menu-item#category-apparel-aventais",
+                  "menu-item#category-apparel-p-calcados",
+                  "menu-item#category-apparel-luvas",
+                  "menu-item#category-apparel-p-mascaras",
+                  "menu-item#category-apparel-oculos"
+                ]
+  },
+  "rich-text#produtos21": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-aventais": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Aventais",
+        "text": "Aventais"
+      }
+    }
+  },
+  "menu-item#category-apparel-p-calcados": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
+  },
+  "menu-item#category-apparel-luvas": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Luvas",
+        "text": "Luvas"
+      }
+    }
+  },
+  "menu-item#category-apparel-p-mascaras": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Máscaras",
+        "text": "Máscaras"
+      }
+    }
+  },
+  "menu-item#category-apparel-oculos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Óculos",
+        "text": "Óculos"
+      }
+    }
+  },
+
+
+  "menu-item#category-apparel-reabilitacao": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-reabilitacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Reabilitação",
+        "text": "Reabilitação"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#reabilitacao"]
+  },
+  "vtex.menu@2.x:submenu#reabilitacao": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu23"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#reabilitacao"
+    ]
+  },
+  "vtex.menu@2.x:menu#reabilitacao": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos22",
+                  "menu-item#category-apparel-fonoaudiologia",
+                  "menu-item#category-apparel-ocupacional"
+                ]
+  },
+  "rich-text#produtos22": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-fonoaudiologia": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Fonoaudiologia",
+        "text": "Fonoaudiologia"
+      }
+    }
+  },
+  "menu-item#category-apparel-ocupacional": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Terapia Ocupacional",
+        "text": "Terapia Ocupacional"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-resgate": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-resgate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Resgate",
+        "text": "Resgate"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#resgate"]
+  },
+  "vtex.menu@2.x:submenu#resgate": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu24"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#resgate"
+    ]
+  },
+  "vtex.menu@2.x:menu#resgate": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos23",
+                  "menu-item#category-apparel-r-equipamentos",
+                  "menu-item#category-apparel-imobilizacao"
+                ]
+  },
+  "rich-text#produtos23": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-r-equipamentos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Equipamentos",
+        "text": "Equipamentos"
+      }
+    }
+  },
+  "menu-item#category-apparel-imobilizacao": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Imobilização",
+        "text": "Imobilização"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-vestuario": {
+    "props": {
+      "blockClass": "menu-style",
+      "id": "menu-item-category-apparel-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Vestuário",
+        "text": "Vestuário"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#vestuario"]
+  },
+  "vtex.menu@2.x:submenu#vestuario": {
+    "props": {
+      "width": "auto",
+      "blockClass": "sub-submenu25"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#vestuario"
+    ]
+  },
+  "vtex.menu@2.x:menu#vestuario": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ""
+    },
+    "children": [
+                  "rich-text#produtos24",
+                  "menu-item#category-apparel-v-calcados",
+                  "menu-item#category-apparel-jalecos"
+                ]
+  },
+  "rich-text#produtos24": {
+    "props": {
+      "text": "Produtos",
+      "blockClass": "submenu-title"
+    }
+  },
+  "menu-item#category-apparel-v-calcados": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Calçados",
+        "text": "Calçados"
+      }
+    }
+  },
+  "menu-item#category-apparel-jalecos": {
+    "props": {
+      "blockClass": "submenu-content",
+      "id": "menu-item-category-apparel-acessibilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Jalecos",
+        "text": "Jalecos"
+      }
+    }
+  }
+}

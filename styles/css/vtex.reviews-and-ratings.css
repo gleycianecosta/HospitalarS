@@ -1,0 +1,77 @@
+.container {
+  max-width: 96rem;
+  padding: 0 66px;
+  font-family: 'Calibri', sans-serif;
+}
+
+.inlineContainer {
+  margin-left: 0rem;
+}
+
+.reviewsHeading {
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reviewsRatingAverage, .reviewsRatingCount {
+  display: none;
+}
+
+.starsContainer {
+  border-bottom: 1px solid #00000080;
+  margin-bottom: 36px;
+}
+
+.star--filled {
+  color: #FFB100;
+}
+
+.star--empty {
+  color: #FFB100;
+}
+
+.graphContainer {
+  margin: 0;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: #06A4CA;
+  padding-left: 0;
+}
+
+.reviewsOrderBy :global(.vtex-styleguide-9-x-container) {
+  background-color: #73C2AD;
+  font-size: 20px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 400;
+  border-radius: 14px;
+  border: none;
+  margin-right: 5px;
+}
+
+.reviewsOrderBy :global(.vtex-dropdown__caption), :global(.vtex-dropdown__arrow) {
+  color: #fff;
+}
+
+.reviewComment {
+  border: none;
+  background-color: #D9D9D94D;
+  padding: 30px;
+}
+
+.reviewCommentRating {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.reviewCommentUser {
+  font-size: 15px;
+}
+
+.reviewInfo {
+  font-size: 13px;
+  font-weight: 400;
+  color: #00000080;
+}

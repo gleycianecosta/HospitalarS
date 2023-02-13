@@ -1,0 +1,54 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout--footer-container {
+  height: 262px;
+  background-color: #73C2AD;
+  margin-top: 39px;
+}
+
+.acceptedPaymentMethodContainer--payment-methods {
+  padding: 10px 0;
+}
+
+.socialNetworksContainer--social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 200px;
+}
+
+.socialNetworkLink--social-media--instagram {
+  background-image: url("assets/images/instagram.svg");
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+}
+
+.socialNetworkImage--social-media--instagram {
+  display: none;
+}
+
+.socialNetworkLink--social-media--facebook {
+  background-image: url("assets/images/facebook.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 40px;
+}
+
+.socialNetworkImage--social-media--facebook {
+  display: none;
+}
+
+.container-footer-checkout{
+  background-color: #73C2AD;
+}
